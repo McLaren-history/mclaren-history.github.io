@@ -1,0 +1,11 @@
+{
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "cSpell.language": "en,en-US",
+  "cSpell.enableFiletypes": [
+    "tex",
+    "vue-directives",
+    "vue-interpolations",
+    "vue-sugarss"
+  ],
+  "cSpell.words": ["Anefo", "Nationaalarchief", "Spurzem"]
+}
