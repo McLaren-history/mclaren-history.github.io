@@ -1,29 +1,4 @@
-# Nuxt 3 Minimal Starter
+# McLaren History
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
-
-## Setup
-
-Make sure to install the dependencies
-
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+This repository is was a school project in Q3-Q4/2022 in the English Lessons. It provides information about the Formula One team McLaren Racing Limited.
+Please note that this is not an official McLaren website, it is rather an information platform from a fan.
