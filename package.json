@@ -3,9 +3,12 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "generate": "npx nuxi generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
-    "nuxt": "npm:nuxt3@latest"
+    "nuxt": "npm:nuxt3@latest",
+    "push-dir": "^0.4.1"
   }
 }

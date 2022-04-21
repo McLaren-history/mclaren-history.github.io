@@ -6,6 +6,6 @@ export default defineNuxtConfig({
   ssr: true,
   target: 'static',
   router: {
-    base: '/mclaren-history.github.io',
+    base: '/mclaren-history.github.io/',
   },
 })
