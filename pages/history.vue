@@ -352,7 +352,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import Image from '@/types/Image'
 
 export default {

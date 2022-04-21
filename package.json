@@ -6,6 +6,6 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt": "npm:nuxt3@latest"
   }
 }
