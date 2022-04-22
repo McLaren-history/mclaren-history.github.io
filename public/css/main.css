@@ -89,3 +89,11 @@ span.abbr:hover::after {
 .title {
   color: var(--mclaren-orange);
 }
+
+p {
+  text-align: justify;
+}
+
+.shorthand {
+  text-decoration: underline dashed 0.075em var(--mclaren-orange);
+}

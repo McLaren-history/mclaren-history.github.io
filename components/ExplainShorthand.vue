@@ -84,7 +84,7 @@ export default {
 
   opacity: 0.9;
 
-  max-width: min(100vw, 400px);
+  max-width: min(100vw, 500px);
   backdrop-filter: blur(5px) brightness(1.5);
 }
 </style>

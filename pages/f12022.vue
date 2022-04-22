@@ -4,10 +4,12 @@
     <ShowContentImages :images="images">
       <div class="content">
         <h2 class="title">Rule changes</h2>
-        In 2022, a massive change of rules was introduced, enforcing the need
-        for Ground Effect due to aerodynamics on top of the car being regulated
-        more, in order to reduce the amount and effect of dirty air on the car
-        behind (in order to decrease the difficulty of overtaking).
+        <p>
+          In 2022, a massive change of rules was introduced, enforcing the need
+          for Ground Effect due to aerodynamics on top of the car being
+          regulated more, in order to reduce the amount and effect of dirty air
+          on the car behind (in order to decrease the difficulty of overtaking).
+        </p>
       </div>
     </ShowContentImages>
   </div>
@@ -27,8 +29,7 @@ export default {
             'https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/gallery/image6.img.1920.medium.jpg/1645693882401.jpg',
             'https://www.formula1.com/content/fom-website/en/teams/McLaren/_jcr_content/gallery/image2.img.1920.medium.jpg/1647008685857.jpg',
           ],
-          description: `Lando Norris driving the McLaren MCL36-Mercedes around the Bahrain International Circuit on the first day of FP, March 10, 2022 and in FP3 the next day.\n
-          Daniel Ricciardo at Pre-Season testing in Barcelona-Catalunya on February 24.`,
+          description: `Lando Norris driving the McLaren MCL36-Mercedes around the Bahrain International Circuit on the first day of FP, March 10, 2022, Ricciardo in FP3 the next day and at Pre-Season testing in Barcelona-Catalunya on February 24.`,
           alt: 'Img not loaded',
           uploadDate: new Date(2022, 2, 10),
           displaySource: 'Formula One World Championship Limited: Team McLaren',

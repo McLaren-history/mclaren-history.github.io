@@ -37,6 +37,10 @@
     </div>
     <div class="bottom">
       <nuxt-link to="/history" class="card small-shadow">History</nuxt-link>
+      <nuxt-link to="/f1rules" class="card small-shadow">F1 Rules</nuxt-link>
+      <nuxt-link to="/f12022" class="card small-shadow"
+        >F1 2022 season</nuxt-link
+      >
     </div>
   </div>
 </template>
@@ -68,8 +72,14 @@ export default {
 }
 
 .bottom {
+  display: flex;
   max-width: 100%;
   margin: 1rem 0;
+}
+
+.bottom * {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .heading {

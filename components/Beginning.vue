@@ -29,7 +29,7 @@
       at the start of May 2019.
     </p>
 
-    <div>
+    <p>
       Apart from the engagement in Formula 1 since the Monaco GP 1966, McLaren
       Racing recently entered <em>Extreme E</em>, an electric off-road racing
       series and takes part of the
@@ -48,11 +48,12 @@
       Most of the series have been sanctionned by the
       <span
         id="fia-shorthand"
+        class="shorthand"
         @mouseover="showFIAShort"
         @mouseleave="hideFIAShort"
         >FIA</span
       >.
-    </div>
+    </p>
 
     <ExplainShorthand
       :shown="shorts.showFIAShorthand"
@@ -61,7 +62,7 @@
       id="fia-explanation"
     >
       <h3>Fédération Internationale de l'Automobile</h3>
-      <div>
+      <p>
         "The FIA is the governing body of motor sport and promotes safe,
         sustainable and accessible mobility for all road users across the world"
         (<a target="_blank" href="https://www.fia.com/fia">fia.com</a>). The
@@ -69,7 +70,7 @@
         <em>FIA Formula One World Championship</em> since 1981 among other
         competitions. Furthermore, it issues licenses and grade-ratings for
         drivers and circuits.
-      </div>
+      </p>
     </ExplainShorthand>
   </ShowContentImages>
 </template>
@@ -123,5 +124,10 @@ export default {
 <style scoped>
 .container {
   display: flex;
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
 }
 </style>
