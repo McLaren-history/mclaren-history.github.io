@@ -55,6 +55,7 @@
       <h2 class="title">Championship Points</h2>
       <h2 class="title">Constructors</h2>
       <h2 class="title">Drivers</h2>
+      <h2 class="title">Team Engineers</h2>
     </ShowContentImages>
   </div>
 </template>

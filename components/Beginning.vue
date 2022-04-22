@@ -38,14 +38,14 @@
       latter.
       <br />
       Until 1974, McLaren became the most successful constructor in the
-      <em>Can-Am</em> champianship, before it ceased at the and of the season.
+      <em>Can-Am</em> championship, before it ceased at the and of the season.
 
       <br /><br />
       In summary, Mclaren has been taking part of several motorsport series for
       more than 50 years, and has announced to look into the specifications of
       new competitions like <em>Formula E</em> and potentially the
       <em>FIA World Endurance Championship</em>, the latter starting from 2024.
-      Most of the series have been sanctionned by the
+      Most of the series have been sanctioned by the
       <span
         id="fia-shorthand"
         class="shorthand"
