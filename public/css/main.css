@@ -42,14 +42,16 @@ a {
   text-decoration: underline;
   text-decoration-color: var(--mclaren-orange);
 }
-span > .abbr:hover::after {
+span.abbr:hover::after {
   position: absolute;
-  transform: translate(calc(4rem), -3rem);
+  transform: translate(140%, -150%);
   display: block;
-  padding: 1em;
+  padding: 0.4em;
   color: var(--mclaren-orange);
   background: var(--mclaren-lighter-bg);
   content: attr(title);
+  border: 2px solid var(--mclaren-bg);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
 
 .text {
@@ -82,4 +84,8 @@ span > .abbr:hover::after {
 .page-enter > div:not(:first-child),
 .page-leave-active > div:not(:first-child) {
   opacity: 0;
+}
+
+.title {
+  color: var(--mclaren-orange);
 }
