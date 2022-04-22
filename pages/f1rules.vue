@@ -15,13 +15,14 @@
       <h2 class="title">Qualifying</h2>
       <h2 class="title">Sprint</h2>
       <p>
-        ... or since 2022 just called "The Sprint", replace one session of Free
-        Practice (on three race week-ends each the last and the current 2022
-        season), and determine the grid for the Grand Prix on Sunday. The
-        week-ends' schedules are changed to reflect the 100-km long race. Thus,
-        they take about half an hour, under ideal conditions. The starting grid
-        is set on Friday's Qualifying, taking place after the FP1, while FP2 is
-        held ahead of the Sprint on Saturday.
+        Sprint Qualifyings, as they were called during the 2021 season, or since
+        2022 just called "The Sprint"s, replace one session of Free Practice (on
+        three race week-ends each the last and the current 2022 season), and
+        determine the grid for the Grand Prix on Sunday. The week-ends'
+        schedules are changed to reflect the 100-km long race. Thus, they take
+        about half an hour, under ideal conditions. The starting grid is set on
+        Friday's Qualifying, taking place after the FP1, while FP2 is held ahead
+        of the Sprint on Saturday.
         <br />
         One big difference from Sunday's Race is that during a Sprint, there is
         no mandatory pit stop for tyre changes, instead, the drivers will just
