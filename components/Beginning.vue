@@ -1,22 +1,23 @@
 <template>
   <ShowContentImages class="container" :images="images">
     <p>
-      Scoring third in 2020 and losing the fight for third place in the
+      Scoring third in 2020 and despite losing the fight for third place in the
       <nuxt-link :to="{ path: '/f1rules', hash: '#constructors' }"
         >constructor's championship</nuxt-link
       >
       against Ferrari in the last race in 2021, McLaren is definitely one of the
       top-teams in modern
-      <a href="https://f1.com" target="_blank">
-        <img
-          src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg"
-          height="16" /></a
+      <span class="abbr" title="Formula One"
+        ><a href="https://f1.com" target="_blank">
+          <img
+            src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg"
+            height="16" /></a></span
       >.
     </p>
     <p>
       McLaren Racing is a company based in
-      <nuxt-link to="/maps" target="_blank">Woking, Surrey</nuxt-link>. Zak
-      Brown has been CEO
+      <nuxt-link to="/maps" target="_blank">Woking, Surrey (UK)</nuxt-link>,
+      employing about 4,200 people. Zak Brown has been CEO
       <nuxt-link :to="{ path: '/history', hash: '#ZakBrown' }"
         >since November 2016</nuxt-link
       >,
@@ -38,9 +39,9 @@
       latter.
       <br />
       Until 1974, McLaren became the most successful constructor in the
-      <em>Can-Am</em> championship, before it ceased at the and of the season.
-
-      <br /><br />
+      <em>Can-Am</em> championship, before it ceased at the end of the season.
+    </p>
+    <p>
       In summary, Mclaren has been taking part of several motorsport series for
       more than 50 years, and has announced to look into the specifications of
       new competitions like <em>Formula E</em> and potentially the

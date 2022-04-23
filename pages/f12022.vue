@@ -1,5 +1,10 @@
 <template>
   <div class="container f1-2022-container">
+    <MetaHead
+      title="2022"
+      description="What are the most important developments for McLaren in the current season?"
+    />
+
     <Header />
     <ShowContentImages :images="images">
       <div class="content">

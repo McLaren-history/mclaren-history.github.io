@@ -1,5 +1,10 @@
 <template>
   <div class="container index-container">
+    <MetaHead
+      title="Start"
+      description="The history McLaren Racing is reaching back to 1965. How and why did Bruce McLaren start an own Formula One team and how did it develop from underdog to one of the top teams in modern Formula One?"
+    />
+
     <Header />
     <Beginning />
 

@@ -1,5 +1,10 @@
 <template>
   <div class="container history-container">
+    <MetaHead
+      title="History"
+      description="McLaren's History begin in 1963 with Bruce McLaren founding his own Motor Racing company. "
+    />
+
     <Header />
 
     <ShowContentImages :images="images" class="content-container-history">
@@ -8,7 +13,7 @@
           <h2 class="title">Founding</h2>
           <p>
             In 1963, Bruce McLaren Motor Racing was founded. Bruce was a factory
-            driver for the Cooper Car Company in Formula One. His own Racing
+            driver for the Cooper Car Company in Formula One. His own racing
             company's history in F1 began in 1966 at the Monaco GP, which was
             held on may 22nd, after Bruce decided the worsening results for his
             team (Cooper Car Company) were not satisfying for him as a driver.
@@ -166,7 +171,7 @@
             challengers. Twice again, Senna won the Driver's Championship,
             making him three-times Formula One World Champion (1988, 1990,
             1991). McLaren continued to earn two titles, thus having a four-year
-            run as champions.
+            run as champion.
           </p>
         </div>
 
@@ -200,18 +205,18 @@
             successive year without a single win.
             <br />
             The 1997 season started much better: Coulthard won the season-opener
-            in Australia, and both drivers scored another win, during the
-            season. Their biggest issue was the unreliability, as Häkkinen had
-            to give up before crossing the finish line while racing in first
-            place twice during the season.
+            in Australia, and both drivers scored another win during the season.
+            Their biggest issue was the technical unreliability of the bolides,
+            as Häkkinen had to give up before crossing the finish line while
+            racing in first place twice during the season.
             <br />
-            As Williams lost their works Renault engines in 1998 and a set of
-            new technical regulations, the team managed to win a sixth
-            Constructors' Championship, and Häkkinen won the Drivers' trophy.
-            The subsequent season again brought a combination of drive errors
-            and mechanical failures, and despite Häkkinen's second Drivers'
-            Championship in a row, the team was not able to finish at the top of
-            the Constructors' standings in 1999.
+            As Williams lost the works Renault engines in 1998 and a set of new
+            technical regulations was introduced, the team managed to win a
+            sixth Constructors' Championship, and Häkkinen won the Drivers'
+            trophy. The subsequent season again brought a combination of drive
+            errors and mechanical failures, and despite Häkkinen's second
+            Drivers' Championship in a row, the team was not able to finish at
+            the top of the Constructors' standings in 1999.
           </p>
           <p>
             The next years did not provide any chance to beat Ferrari and
@@ -230,7 +235,7 @@
             after winning the final race in Brazil and ending up one point ahead
             of both McLaren drivers. Alonso left McLaren for the 2008 season.
             <br />
-            While both drivers wer fighting each other, the team was found
+            While both drivers were fighting each other, the team was found
             guilty and fined $100 Million for having technical blueprints of
             Ferrari's car, after the management had blamed one single "rogue
             engineer" at the first hearing.
@@ -247,15 +252,16 @@
             still be more catastrophic; the MP4-24 was clearly off the pace, and
             despite winning two Grand Prix late-season and placing himself first
             on the grid four times, Hamilton finished fifth in the Drivers'
-            standings, with Kovalainen far off pace scoring 22 points (12th).
+            standings, with Kovalainen finding himself far off pace only scoring
+            22 points (12th) over the whole season.
           </p>
           <p>
             For the 2010 season, McLaren-Mercedes lost its status as Mercedes
-            works team, but they continued using customer Mercedes-Benz engines
-            for five more years until 2014. Jenson Button replaced Kovalainen
-            after disappointing results. Despite scoring five wins in total,
-            McLaren lost the championships to Red Bull and Sebastian Vettel,
-            with Lewis and Jenson only finishing P4 and P5, respectively.
+            works team, but they have continued using customer Mercedes-Benz
+            engines for five more years until 2014. Jenson Button replaced
+            Kovalainen after disappointing results. Despite scoring five wins in
+            total, McLaren lost the championships to Red Bull and Sebastian
+            Vettel, with Lewis and Jenson only finishing P4 and P5 respectively.
             <br />
             In 2011, the team stayed second with Red Bull in first place, but
             Button finished ahead of his teammate in second place, while
@@ -301,7 +307,7 @@
         <div class="info card">
           <h2 class="title">Renault's three year-deal (2018-2020)</h2>
           <p>
-            For 2018, they needed radical changes, and turned to Renault as
+            For 2018, radical changes were needed and they turned to Renault as
             engine supplier for a three-year deal. The driver pairing of Alonso
             and Vandoorne, however, was set to remain. Lando Norris, a British
             young driver who signed in February 2017 to McLaren's Young Driver
@@ -311,12 +317,12 @@
             in sixth place overall.
           </p>
           <p>
-            For 2019, they replaced Alonso, who initially retired from F1 after
-            the four years with McLaren, with Lando Norris and Carlos Sainz was
+            2019, they replaced Alonso who initially retired from F1 after the
+            four years with McLaren with Lando Norris, and Carlos Sainz was
             offered a contract after his employment first at Toro Rosso
-            (2015-2017) and Renault (2018 season). While Carlos stayed with the
-            team for two years, Lando is still driving for McLaren in his fourth
-            Formula One season.
+            (2015-2017) and Renault (2018 season). While Carlos has stayed with
+            the team for two years, Lando is still driving for McLaren in his
+            fourth Formula One season.
             <br />
             The 2019 season turned out to end positively for McLaren
             establishing themselves as "Best of the Rest" (P4 in Constructors'
@@ -324,27 +330,33 @@
             podium, which had not happened since 2014.
           </p>
           <p>
-            The 2020 season, again, ended one place higher than the year before:
-            scoring 202 points in the shortened season (CoVid-19), they placed
-            themselves in P3, ahead of Racing-Point (Ferrari had a catastrophic
-            season that ended in P6 with only 131 points). In total, they
-            secured two podiums, and held the award for the fastest lap in three
-            races, showing that the new McLaren-Renault team was competitive,
-            again, after years of internal crises.
+            The 2020 season, ended once more one place higher than the year
+            before: scoring 202 points in the shortened season (CoVid-19), they
+            placed themselves in P3, ahead of Racing-Point (Ferrari had a
+            catastrophic season that ended in P6 with only 131 points). In
+            total, they secured two podiums, and held the award for the fastest
+            lap in three races, showing that the new McLaren-Renault team was
+            competitive again, after years of internal crises.
           </p>
         </div>
         <div class="info card">
           <h2 class="title">Mercedes engines (2021-present)</h2>
           <p>
-            As Carlos Sainz left the team to Ferrari, and was replaced by Daniel
-            Ricciardo (Renault), to drive the new MCL35M. The season proved to
-            be quite successful for the team with the
+            Carlos Sainz left the team to Ferrari and was replaced by Daniel
+            Ricciardo (Renault) to drive the new MCL35M. The season proved to be
+            quite successful for the team with the
             <strong>only 1-2-finish for any team during the season</strong> at
-            the Italian Grand prix at the Autodromo Nazionale di Monza. Despite
-            this victory, though, they lost the battle for third place in the
+            the Italian Grand Prix at the Autodromo Nazionale di Monza. Despite
+            this victory they lost the battle for third place in the
             Constructors' Championship against Ferrari, with Mercedes dominating
             the whole season and Red Bull, who built the car for World Champion
             Max Verstappen, second with a margin of 252 championship points.
+          </p>
+          <p>
+            For 2022, the FIA brought quite a few new regulations,
+            <nuxt-link :to="{ path: '/f12022' }"
+              >read more about this season</nuxt-link
+            >.
           </p>
         </div>
       </div>
@@ -352,7 +364,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Image from '@/types/Image'
 
 export default {
