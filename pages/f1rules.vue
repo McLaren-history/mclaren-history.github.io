@@ -8,17 +8,36 @@
     <Header />
 
     <ShowContentImages :images="images">
-      <h2 class="title">Free Practice</h2>
+      <h2 class="title">Race Weekend: Free Practice</h2>
       <p>
         Free practice is the time for teams to gather as much data as possible
         in preparation for the Grand Prix. While the drivers try to drive as
         many laps as they can during FP1, FP2 and FP3, all three Practices are
         used for different purposes:
         <br />
-        FP1 is mostly used to TODO:
+        FP1 is mostly used to find a general setup for the whole weekend with
+        which the cars will be modified, because every track has different
+        requirements from the teams, cars and drivers.
+      </p>
+      <p>
+        In FP2, the drivers do often drive longer runs on the track which has
+        already developed. This practice session can be used to find possible
+        race strategies, which is why this run is especially important for
+        Sunday's Grand Prix. After the session, the drivers will have completed
+        many rounds, most of them with a full fuel tank. In this session, the
+        teams do their best to simulate the race conditions, however, track
+        evolution after Saturday does often require some more strategic
+        decisions during the race.
+      </p>
+      <p>
+        FP3 is the last training session before the qualifying and is held on
+        Saturday. Here, the drivers try to get the best flying lap out of their
+        cars in order to prepare for Qualifying. In this session, the conditions
+        on track are most similar to those at Qualifying later that day,
+        however, some aspects like track temperature might vary quite a bit.
       </p>
 
-      <h2 class="title">Qualifying</h2>
+      <h2 class="title">Race Weekend: Qualifying</h2>
       <p>
         During the three stages of qualifying, the starting grid for the race
         (or the Sprint on Sprint-weekends) is determined. This is done by
@@ -61,7 +80,7 @@
         start from P1.
       </p>
 
-      <h2 class="title">Sprint</h2>
+      <h2 class="title">Race Weekend: Sprint</h2>
       <p>
         Sprint Qualifyings as they were called during the 2021 season, or since
         2022 just called "The Sprints", replace one session of Free Practice (on
@@ -99,16 +118,68 @@
         time penalties).
       </p>
       <h2 class="title">Races</h2>
+      <p>
+        Every race in the F1 calendar must be at least 305km long, meaning the
+        number of laps completed around each circuit is different. The only
+        exception to the 305km rule is Monaco where, due to the the slow average
+        speed, the length is just higher than 260km. In total, an uninterrupted
+        F1 race must be completed within two hours, the only exception being
+        when the race is interrupted due to an incident on track, which allows
+        this time to be extended to 3 hours.
+      </p>
+      <p>
+        During a race, the drivers can be sanctioned with time penalties, which
+        can be either 5 or 10 seconds long and can also be provided more than
+        once. At the next pit stop after the penalty is given, the drivers may
+        already serve that by standing still for the given amount of time before
+        the mechanics are allowed to work on the cars and change the wheels or
+        the front wing. Time penalties are the only two penalties that can often
+        be observed in most races.
+      </p>
+      <p>
+        Apart from unserved penalties, there is one other situation where the
+        driver's ending position does not immediately correspond to the final
+        result: If a driver has been lapped, he finishes the race directly after
+        crossing the finish line when the chequered flag is waved. This means
+        that some drivers will not complete the whole race's length, but rather
+        one or two laps shy of the original number of laps.
+      </p>
       <h2 class="title">Bolides</h2>
+      <p>
+        The Formula 1 bolides are highly regulated in the
+        <a
+          href="https://www.fia.com/sites/default/files/2022_formula_1_technical_regulations_-_iss_3_-_2021-02-19.pdf"
+          >technical regulations</a
+        >
+        provided by the FIA. This document for the 2022 season includes a 158
+        page long description of every part a car may or may not contain,
+        focussing on providing equal chances to all the drivers.
+      </p>
+      <p>
+        Since the 2021 season, there is a budget cap on the teams' expenses,
+        meaning that McLaren-CEO Zak Brown has openly stated that the top-teams
+        (of the last season, 2021, Mercedes and Red Bull) have won the
+        championship with money only. For 2022 the cap has been reduced to $140
+        million. All team chefs are highly disputing in the media whether this
+        budget cap helps the sport to become more "inclusive" for the smaller
+        teams and provide a competition that is more fair. On the other hand,
+        Christian Horner (Red Bull) said repeatedly that the top teams "are are
+        going to breach that $140million cap this year." (<a
+          href="https://www.gpfans.com/en/f1-news/83559/mercedes-ferrari-red-bull-will-all-breach-budget-cap-this-season/"
+          >GP Fans</a
+        >) So, this debate is still ongoing and we will see whether the teams
+        will be able to take part in every race this season or whether they will
+        be forced to skip one or two because of the budget cap.
+      </p>
       <h3 class="title">DRS</h3>
       <p>
         The Drag Reduction System is a mechanical and electrical system that
         allows drivers to reduce drag provided by back wings on straights. The
-        back wings normally should increase the speed of the speed with which
-        the cars can drive around corners by applying extra downforce to the
-        car. This downforce, however, is counterproductive when trying to
-        achieve maximum speed (primarily on long straights), because it
-        increases friction and, due to the form of the wing, air drag.
+        back wings normally should increase the speed with which the cars can
+        drive around corners by applying extra downforce to the car. This
+        downforce, however, is counterproductive when trying to achieve maximum
+        speed (primarily on long straights), because it increases friction with
+        the ground and, due to the form of the wing, air drag.
       </p>
       <p>
         Each track has at least two (maximum is three, Monaco only has one but
@@ -136,7 +207,7 @@
         technically finishing 90% of the Grand Prix) will receive points based
         on their position:
       </p>
-      <table>
+      <table style="margin: auto">
         <tr>
           <td>Position</td>
           <td>Points (in normal race) since 2010</td>
@@ -147,10 +218,55 @@
           <td>25</td>
           <td>8</td>
         </tr>
+        <tr>
+          <td>2</td>
+          <td>18</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>15</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>12</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>10</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>8</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>6</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>4</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>2</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
       </table>
       <p>
-        If the race is stopped early, it depends from the race length that has
-        been completed before the stop.
+        If the race is stopped early, the given championship points depend from
+        the race length that has been completed before the stop.
       </p>
       <p>
         Additionally, one point is awarded to the driver holding the fastest lap
@@ -159,7 +275,8 @@
         <a
           href="https://en.wikipedia.org/wiki/List_of_Formula_One_World_Championship_points_scoring_systems"
           target="blank"
-          >reintroduced in 2019 after a 60-year stop (since 1960)</a
+          >reintroduced in 2019 after a 60-year abolishment period (since
+          1960)</a
         >.
       </p>
       <p>
@@ -180,10 +297,22 @@
       <p></p>
 
       <h2 class="title">Drivers</h2>
-      <p></p>
-
-      <h2 class="title">Engineers</h2>
-      <p></p>
+      <p>
+        At every race, there are two drivers for each of the 22 teams, however,
+        junior or reserve drivers may replace a main driver temporarily. E.g.,
+        German Aston Martin driver Sebastian Vettel was forced to skip the first
+        two races due to his CoVid-19 infection. So, Nico Hülkenberg took his
+        seat for those races.
+      </p>
+      <p>
+        The drivers do all have their own fitness coach and must train in
+        preparation for the race weekends. Most people think that Formula One is
+        not a real sport due to the drivers not moving as much as in other
+        sports, however, the drivers must be highly focussed, and they train
+        their reflexes for situations like snap oversteer or (close) collisions
+        with other drivers where the car may react unexpected. Furthermore, the
+        FIA TODO:
+      </p>
     </ShowContentImages>
   </div>
 </template>
@@ -203,4 +332,10 @@ export default {
 </script>
 
 <style scoped>
+td {
+  padding: 0 15px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
 </style>
