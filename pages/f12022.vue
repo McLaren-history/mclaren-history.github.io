@@ -15,6 +15,45 @@
           regulated more, in order to reduce the amount and effect of dirty air
           on the car behind (in order to decrease the difficulty of overtaking).
         </p>
+
+        <h2 class="title">McLaren Mercedes in 2022</h2>
+        <p>
+          With the driver pairing of Lando Norris and Daniel Ricciardo, the
+          team's first results seemed quite disappointing, at least in terms of
+          point winning: Only two out of the first seven races left the McLaren
+          team with of double-digit results, adding both drivers' individual
+          points. Two race weekends, namely Bahrain (round 1) and Miami (round
+          5), ended with zero points.
+          <br />
+          Anyway, the team is currently "best of the rest" (the best team after
+          the so-called "top-teams" Red Bull, Ferrari and Mercedes
+          AMG-Petronas).
+        </p>
+        <p>
+          However, it is to distinguish between the two drivers' individual
+          results: Lando Norris is currently in position 7 of the drivers'
+          standings, so he is best of the rest looking at the drivers'
+          championship by ending five races third, fifth, sixth, seventh and
+          eighth out of the first seven races. Only once, in Bahrain, he did not
+          score points while finishing (15th) and he could not finish the Miami
+          GP. It is important to keep in mind that Norris suffered a tonsillitis
+          at the Barcelona GP and had not completely cured until the Monaco GP.
+          <br />
+          Daniel Ricciardo is much more unstable than his teammate, only scoring
+          points at his home race (round 3). During the first seven races, he
+          has already a 37-point deficit to Lando. This, of course, is very
+          disappointing for such an ambitious team, and thus CEO Zak Brown
+          publicly talks about the
+          <a
+            href="https://www.formula1.com/en/latest/article.part-of-me-loves-it-ricciardo-says-he-has-no-issue-with-speculation-over.4YAPpY26msKxeew7rFilNk.html"
+            >expectations Danny had "not met"</a
+          >
+          yet. The Australian himself admitted he had
+          <a
+            href="https://www.formula1.com/en/latest/article.part-of-me-loves-it-ricciardo-says-he-has-no-issue-with-speculation-over.4YAPpY26msKxeew7rFilNk.html"
+            >not really done anything spectacular this year"</a
+          >.
+        </p>
       </div>
     </ShowContentImages>
   </div>
