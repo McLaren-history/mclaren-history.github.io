@@ -57,7 +57,7 @@ span.abbr:hover::after {
 .text {
   color: var(--text-color);
   padding: 0 1rem 0;
-  max-width: 50vw;
+  width: 50vw;
   font-size: 20px;
 }
 
@@ -101,4 +101,8 @@ p {
 img:not(.img-small) {
   width: 100%;
   object-fit: cover;
+}
+
+html {
+  height: fit-content;
 }

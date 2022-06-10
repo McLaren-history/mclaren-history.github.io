@@ -7,7 +7,11 @@
 
     <Header />
 
-    <ShowContentImages :images="images" class="content-container-history">
+    <ShowContentImages
+      :images="images"
+      class="content-container-history"
+      :speed="0.6"
+    >
       <div class="outer">
         <div class="info card">
           <h2 class="title">Founding</h2>

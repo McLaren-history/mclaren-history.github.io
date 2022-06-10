@@ -83,12 +83,12 @@ export default {
       return this.image.uploadDate == null
         ? ''
         : '(' +
-            this.image.uploadDate.toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-            }) +
-            ')'
+        this.image.uploadDate.toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric',
+        }) +
+        ')'
     },
   },
 }
