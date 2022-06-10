@@ -36,9 +36,10 @@ export default {
 .images-container {
   display: grid;
   gap: 1rem;
+  width: 100%;
 }
 
-.images-container * {
+.images-container > * {
   width: 100%;
 }
 </style>

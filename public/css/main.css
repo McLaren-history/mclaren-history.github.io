@@ -98,7 +98,7 @@ p {
   text-decoration: underline dashed 0.075em var(--mclaren-orange);
 }
 
-img {
+img:not(.img-small) {
   width: 100%;
   object-fit: cover;
 }

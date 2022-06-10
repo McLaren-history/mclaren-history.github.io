@@ -10,6 +10,7 @@
       <span class="abbr" title="Formula One"
         ><a href="https://f1.com" target="_blank">
           <img
+            class="img-small"
             src="https://www.formula1.com/etc/designs/fom-website/images/f1_logo.svg"
             height="16" /></a></span
       >.
