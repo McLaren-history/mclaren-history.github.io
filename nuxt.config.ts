@@ -16,7 +16,7 @@ export default defineNuxtConfig({
     description: 'Meta description',
   },
 
-  // Will require extra attention, and remember to add vue-plausible to package.json
+  // Custom statistics: Will require extra attention, and remember to add vue-plausible to package.json
   // modules: ['vue-plausible'],
   // plausible: {
   //   domain: 'mclaren-history.sthomas.ch',
