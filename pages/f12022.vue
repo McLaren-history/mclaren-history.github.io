@@ -64,6 +64,17 @@
           circuit with its nearly 2km long straight.
         </p>
       </div>
+
+      <h2>Watch the McLaren team fire up their MCL36 for the first time:</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/tx5zTPQ552g"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </ShowContentImages>
   </div>
 </template>
