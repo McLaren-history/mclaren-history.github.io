@@ -44,7 +44,7 @@
 import { PropType } from 'vue'
 import Image from '@/types/Image'
 
-export default {
+export default defineComponent({
   name: 'ImageComponent',
   props: {
     image: {
@@ -91,7 +91,7 @@ export default {
         ')'
     },
   },
-}
+})
 </script>
 
 <style scoped>

@@ -1,11 +1,11 @@
 <template>
   <div class="container site-container">
-    <scroll-parallax :speed="0.15" direction="y">
+    <scroll-parallax :speed="0" direction="y">
       <div class="text">
         <slot></slot>
       </div>
     </scroll-parallax>
-    <scroll-parallax :speed="speed" direction="y">
+    <scroll-parallax :speed="speed">
       <div class="images images-container">
         <ImageComponent
           v-for="(img, index) of images"
@@ -24,7 +24,7 @@ import ScrollParallax from 'vue3-parallax/src/components/ScrollParallax.vue'
 import type { PropType } from 'vue'
 import Image from '@/types/Image'
 
-export default {
+export default defineComponent({
   name: 'Beginning',
 
   props: {
@@ -39,7 +39,7 @@ export default {
   components: {
     ScrollParallax
   }
-}
+})
 </script>
 
 <style scoped>

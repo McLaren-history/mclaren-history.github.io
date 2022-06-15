@@ -46,13 +46,22 @@
           publicly talks about the
           <a
             href="https://www.formula1.com/en/latest/article.part-of-me-loves-it-ricciardo-says-he-has-no-issue-with-speculation-over.4YAPpY26msKxeew7rFilNk.html"
+            target="_blank"
             >expectations Danny had "not met"</a
           >
           yet. The Australian himself admitted he had
           <a
             href="https://www.formula1.com/en/latest/article.part-of-me-loves-it-ricciardo-says-he-has-no-issue-with-speculation-over.4YAPpY26msKxeew7rFilNk.html"
+            target="_blank"
             >not really done anything spectacular this year"</a
           >.
+        </p>
+        <p>
+          Despite these problems, the McLaren car looks fast and competitive
+          compared to most of the field, only three teams are pulling away,
+          among which Red Bull and Ferrari were fighting near to one second
+          quicker than all other cars on the grid, at least at the Baku street
+          circuit with its nearly 2km long straight.
         </p>
       </div>
     </ShowContentImages>
@@ -62,7 +71,7 @@
 <script>
 import Image from '@/types/Image'
 
-export default {
+export default defineComponent({
   name: 'F12022',
   data() {
     return {
@@ -96,7 +105,7 @@ export default {
       ],
     }
   },
-}
+})
 </script>
 
 <style scoped>

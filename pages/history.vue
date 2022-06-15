@@ -371,7 +371,7 @@
 <script>
 import Image from '@/types/Image'
 
-export default {
+export default defineComponent({
   name: 'History',
   data() {
     return {
@@ -424,10 +424,32 @@ export default {
           height: 360,
           dataHigherWide: false,
         }),
+        new Image({
+          url: [
+            'https://www.supercars.net/blog/wp-content/uploads/2020/02/Honda-F1-2018-engine-RA618H-1024x576.jpg',
+          ],
+          description: 'Example: Honda 2018 engine.',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2020, 1),
+          displaySource: 'Supercars.net',
+          height: 360,
+          dataHigherWide: false,
+        }),
+        new Image({
+          url: [
+            'https://www.formula1.com/content/dam/fom-website/manual/Misc/2021manual/2022-car-with-2021-liveries/F1_2022_McLaren_3_4_Left..jpg.transform/9col-retina/image.jpg',
+          ],
+          description: 'A render of the 2022 McLaren Mercedes livery.',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2021, 6, 16),
+          displaySource: 'Formula 1',
+          height: 360,
+          dataHigherWide: false,
+        }),
       ],
     }
   },
-}
+})
 </script>
 
 <style scoped>

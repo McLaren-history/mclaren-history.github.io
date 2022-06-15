@@ -18,8 +18,7 @@
         <nuxt-link :to="{ path: '/f12022' }">the 2022 season</nuxt-link>.
       </div>
     </div>
-    <br />
-    <br />
+    <h2>Relevance</h2>
     <div class="text">
       But why is McLaren Racing interesting? On the one hand, Mclaren belongs to
       the top-teams in Formula One and has taken part in the championship
@@ -27,6 +26,7 @@
       history in Formula One, only
       <a
         href="https://sports.stackexchange.com/questions/24235/which-formula-one-races-did-scuderia-ferrari-not-take-part-in"
+        target="_blank"
         >Ferrari have taken part in every single season since 1950</a
       >. This is, although F1 is a very challenging sport, with the whole
       on-site staff and equipment having to travel every second week to another

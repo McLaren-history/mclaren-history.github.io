@@ -80,7 +80,7 @@
 <script>
 import Image from '@/types/Image'
 
-export default {
+export default defineComponent({
   name: 'Beginning',
   data() {
     return {
@@ -120,7 +120,7 @@ export default {
       }, 1000 * 0.1)
     },
   },
-}
+})
 </script>
 
 <style scoped>
