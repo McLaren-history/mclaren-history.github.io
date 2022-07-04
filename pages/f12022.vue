@@ -113,6 +113,15 @@ export default defineComponent({
           height: 520,
           dataHigherWide: false,
         }),
+        // new Image({
+        //   url: ['https://pbs.twimg.com/media/FBwBqUOWUAg9jWY.jpg'],
+        //   description: 'The 2022 F1 race weekend schedule',
+        //   alt: 'Img not loaded',
+        //   uploadDate: new Date(2021, 10, 6),
+        //   displaySource: 'Twitter | Sabtu',
+        //   height: 500,
+        //   dataHigherWide: true,
+        // }),
       ],
     }
   },

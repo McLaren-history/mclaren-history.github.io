@@ -7,7 +7,7 @@
 
     <Header />
 
-    <ShowContentImages :images="images">
+    <ShowContentImages :images="images" :speed="0.4">
       <h2 class="title">Race Weekend: Free Practice</h2>
       <p>
         Free practice is the time for teams to gather as much data as possible
@@ -297,7 +297,31 @@
       </p>
 
       <h2 class="title">Constructors</h2>
-      <p></p>
+      <p>
+        There are 10 constructors in Formula 1, who each design their own car.
+        But not all of them are building an own power train: There are only four
+        motor suppliers (Mercedes, Ferrari, Red Bull and Renault, while the last
+        one is only used in Alpine's bolide), but in terms of chassis, every
+        team is different from each other.
+      </p>
+      <p>
+        When designing and building the chassis, the FIA has defined clear rules
+        which must be followed, otherwise the teams are penalized or are not
+        allowed to take part in a race or the championship at all.
+      </p>
+      <p>
+        Out of the 10 constructors, some are likely to change (e.g., the Lotus
+        Team was bought by Renault and, since 2021, races under the name
+        "Alpine"). This change often arises when the team either goes bankrupt
+        or finds another main sponsor, after which they might rename the team
+        for the new season. Other teams, such as Ferrari or also
+        <strong>McLaren Racing</strong>, are considered "teams by tradition",
+        and they do often find sponsors even when they are not as successful as
+        planned. This is one reason, why the McLaren F1 team still exists: They
+        have always been able to live up to their team's and sponsors'
+        identities and secured the funding necessary to continue racing in the
+        highest class.
+      </p>
 
       <h2 class="title">Drivers</h2>
       <p>
@@ -335,7 +359,66 @@ export default defineComponent({
   created() {},
   data() {
     return {
-      images: [],
+      images: [
+        new Image({
+          url: [
+            'https://www.reuters.com/resizer/12mzfBEY5iQtmqAc2Kj71c-0J9k=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/MAXFF7PNV5PRXN7QPWRDJE4DVI.jpg',
+          ],
+          description:
+            'Lando Norris topped the standings in FP3 at the Australian GP 2022',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2022, 3, 7),
+          displaySource: 'Reuters',
+          height: 500,
+          dataHigherWide: false,
+        }),
+        new Image({
+          url: [
+            'https://www.sportstiger.com/wp-content/uploads/2022/04/Lando-Norris-F1-sportstiger.jpg',
+          ],
+          description:
+            'Before ending the qualifying early through a crash, Norris managed to secure P3 in the starting grid for the Emilia Romana GP at Imola.',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2022, 3, 23),
+          displaySource: 'SportsTiger',
+          height: 500,
+          dataHigherWide: false,
+        }),
+        new Image({
+          url: [
+            'https://www.racecar-engineering.com/wp-content/uploads/2018/10/RSZ_McLaren_Flow_Viz_Singapore_2018-e1543326526270-1920x1104.jpg',
+          ],
+          description:
+            'Flow-vis paint helps engineers determine how the air flow is around the cars',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2018, 9),
+          displaySource: 'Race Car Engineering',
+          height: 500,
+          dataHigherWide: false,
+        }),
+        new Image({
+          url: [
+            'https://cdn-ddcfa.nitrocdn.com/JQYfXJOBUFneKLnOzezIRFhjbgnfyVnx/assets/static/optimized/rev-b313104/wp-content/uploads/2021/04/21155717/2021f1grid.jpg',
+          ],
+          description: 'F1 2022 Driver line-up',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2021, 11, 23),
+          displaySource: 'MotorSport Magazine',
+          height: 500,
+          dataHigherWide: false,
+        }),
+        new Image({
+          url: [
+            'https://cdn.motor1.com/images/mgl/7xXQ6/s3/mclaren-2021-f1-car-rules-rendering.jpg',
+          ],
+          description: "Focus on the McLaren 36's back wing",
+          alt: 'Img not loaded',
+          uploadDate: new Date(2021, 11, 23),
+          displaySource: 'Motor1 UK',
+          height: 500,
+          dataHigherWide: false,
+        }),
+      ],
     }
   },
 })

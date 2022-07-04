@@ -426,6 +426,17 @@ export default defineComponent({
         }),
         new Image({
           url: [
+            'https://www.grandprix247.com/wp-content/uploads/2017/02/311rptv.jpg',
+          ],
+          description: 'The evolution of McLaren F1 cars over time until 2017.',
+          alt: 'Img not loaded',
+          uploadDate: new Date(2017, 1, 17),
+          displaySource: 'GrandPrix 247',
+          height: 430,
+          dataHigherWide: false,
+        }),
+        new Image({
+          url: [
             'https://www.supercars.net/blog/wp-content/uploads/2020/02/Honda-F1-2018-engine-RA618H-1024x576.jpg',
           ],
           description: 'Example: Honda 2018 engine.',
