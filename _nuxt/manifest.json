@@ -1,0 +1,78 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-772dc10e.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/f12022.vue",
+      "pages/f1rules.vue",
+      "pages/history.vue",
+      "pages/index.vue",
+      "pages/maps.vue"
+    ],
+    "css": [
+      "entry.abe6a936.css"
+    ]
+  },
+  "pages/f12022.vue": {
+    "file": "f12022-cdacb8f7.mjs",
+    "src": "pages/f12022.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MetaHead-c6517748.mjs",
+      "_Header-110a3c15.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_MetaHead-c6517748.mjs": {
+    "file": "MetaHead-c6517748.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Header-110a3c15.mjs": {
+    "file": "Header-110a3c15.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/f1rules.vue": {
+    "file": "f1rules-975c3629.mjs",
+    "src": "pages/f1rules.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MetaHead-c6517748.mjs",
+      "_Header-110a3c15.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/history.vue": {
+    "file": "history-6cc5443d.mjs",
+    "src": "pages/history.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MetaHead-c6517748.mjs",
+      "_Header-110a3c15.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-9b27e7bd.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_MetaHead-c6517748.mjs",
+      "_Header-110a3c15.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/maps.vue": {
+    "file": "maps-c3757025.mjs",
+    "src": "pages/maps.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_Header-110a3c15.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+}
